@@ -1,0 +1,23 @@
+{
+  "name": "todolist-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "nuxt-buefy": "^0.4.4"
+  },
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "sass": "^1.33.0",
+    "sass-loader": "^10.2.0"
+  }
+}
